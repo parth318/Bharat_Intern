@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.line{
+    border: 3px solid rgb(60, 60, 60);
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    height: 95vh;
+    background-image: url(images/cover_image.jpg);
+    background-position: center;
+    /* background-size: cover; */
+}
+.container-image{
+    height: 95vh;
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.button{
+    padding: 20px;
+}
+#logo{
+    height: 6vh;
+}
+#language{
+    color: white;
+    height: 30px;
+    width: 12vh;
+    background: none;
+    border-radius: 5px;
+}
+#b1{
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#b1:hover{
+    background-color: rgb(220, 7, 7);
+}
+
+.main{
+    text-align: center;
+    margin-top: 30vh;
+}
+.main>h1{
+    font-size: 50px;
+}
+.main>h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+.box{
+    color: white;
+    height: 7vh;
+    width: 60vh;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#b2{
+    color: white;
+    height: 7vh;
+    width: 20vh;
+    /* background: none; */
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+}
+#b2:hover{
+    background-color: rgb(220, 7, 7);
+}
+
+
+
+.image{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 50px;
+}
+.text>h1{
+    font-size: 60px;
+}
+.text>p{
+    font-size: 30px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.questions h1 {
+    font-size: 50px;
+}
+.quest {
+    width: 50%;
+    height: 75px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.textbox {
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.search1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.search1>h3{
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+}
+  
+.list1>li{
+    font-size: 15px;
+    margin: 8px;
+    display: flex;
+}
+  
+li>a{
+    color: #999;
+}
+
+.end{
+    margin: 8px;
+}
